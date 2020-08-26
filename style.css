@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Sinhala-akuru';
+    src: url('./fonts/Sinha.ttf');
+}
+
+html,
+body {
+    font-family: 'Sinhala-akuru';
+}
+.maine {
+    margin-top: 12vh;
+    /* margin: 0 auto; */
+    align-items: center;
+    align-self: center;
+    box-shadow: 2px black;
+    border: 2px solid black;
+}
+.row {
+    margin-top: -30px;
+}
+.head-time-name {
+    font-size: 7em;
+}
+
+.middle {
+    font-size: 6em;
+}
+
+.middle-second {
+    font-size: 4rem;
+}
+.time-name {
+    color: #6f6c6c;
+}
+
+.last {
+    font-size: 3em;
+}
+
+.seconds {
+    font-size: 4rem;
+}
+.middlex {
+    font-size: 4em;
+}
+.time {
+    font-size: 10em;
+}
+
+.minutes {
+    font-size: 5rem;
+}

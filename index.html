@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sinhala clock</title>
+
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js"></script>
+    </head>
+    <body onload="startTime()">
+        <div class="container maine text-center">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <span class="head-time-name">
+                        fõ,dj
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <span class="hour time" id="hour"> </span>
+                </div>
+                <div class="col-md-12 text-center">
+                    <span class="middle time-name">
+                        miqù
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <span class="middle-second time-name">
+                        úkdä
+                    </span>
+                </div>
+                <div class="col-md-12 text-center">
+                    <span class="minutes time" id="minute"> </span>
+                    <span class="middlex time-name">
+                        hs
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <span class="last time-name">
+                        ;;amr
+                    </span>
+                </div>
+                <div class="col-md-12 text-center">
+                    <span class="seconds" id="second"></span>
+                    <span class="middlex time-name">
+                        &nbsp;hs
+                    </span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
